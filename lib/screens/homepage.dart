@@ -3,7 +3,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:hand_fight/screens/level_screen.dart';
+import 'package:hand_fight/screens/round_screen.dart';
 import 'package:lottie/lottie.dart';
 
 class HomePage extends StatefulWidget {

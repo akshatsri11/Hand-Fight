@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:hand_fight/screens/fight_screen.dart';
 import 'package:hand_fight/screens/choices.dart';
 import 'package:hand_fight/screens/homepage.dart';
-import 'screens/level_screen.dart';
+import 'screens/round_screen.dart';
 import 'package:hand_fight/utitlities/game.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class HandFight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Rules(),
+      home: HomePage(),
     );
   }
 }

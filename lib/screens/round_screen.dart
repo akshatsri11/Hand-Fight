@@ -40,9 +40,9 @@ class Label extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Text(
-          "LEVELS",
+          "ROUNDS",
           style: TextStyle(
-            fontSize: 90,
+            fontSize: 80,
           ),
         ),
       ),
